@@ -8,7 +8,7 @@
     <meta name="author" content="">
     <link rel="icon" href="../../favicon.ico">
 
-    <title>Login</title>
+    <title>Sign in</title>
 
     <!-- Bootstrap core CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
@@ -22,11 +22,11 @@
     <div class="container">
 		    <div class="login-page">
 			  <div class="form">
-			  	<h3>Teacher Login</h3>
+			  	<h2 class="form-title">Teacher Login</h2>
 			    <form class="login-form">
-			      <input type="text" placeholder="username"/>
-			      <input type="password" placeholder="password"/>
-			      <button>login</button>
+			      <input type="text" placeholder="Username"/>
+			      <input type="password" placeholder="Password"/>
+			      <button>Login</button>
 			      <p class="message">Not registered? <a href="#">Create a profile</a></p>
 			    </form>
 			  </div>
@@ -37,6 +37,8 @@
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
   </body>
 </html>

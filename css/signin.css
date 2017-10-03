@@ -1,4 +1,5 @@
-@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+/*custom font*/
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
 
 .login-page {
   width: 360px;
@@ -16,7 +17,7 @@
   box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
 }
 .form input {
-  font-family: "Roboto", sans-serif;
+  font-family: montserrat, arial, verdana;
   outline: 0;
   background: #f2f2f2;
   width: 100%;
@@ -27,21 +28,19 @@
   font-size: 14px;
 }
 .form button {
-  font-family: "Roboto", sans-serif;
-  text-transform: uppercase;
-  outline: 0;
-  background: #007730;
-  width: 100%;
-  border: 0;
-  padding: 15px;
-  color: #FFFFFF;
-  font-size: 14px;
-  -webkit-transition: all 0.3 ease;
-  transition: all 0.3 ease;
-  cursor: pointer;
+  font-family: montserrat, arial, verdana;
+  width: 100px;
+    background: #00733E ;
+    font-weight: bold;
+    color: white;
+    border: 0 none;
+    border-radius: 25px;
+    cursor: pointer;
+    padding: 10px 5px;
+    margin: 10px 5px;
 }
 .form button:hover,.form button:active,.form button:focus {
-  background: #00B74A;
+  box-shadow: 0 0 0 2px white, 0 0 0 3px #00733E;
 }
 .form .message {
   margin: 15px 0 0;
@@ -50,8 +49,17 @@
   font-weight: bold;
 }
 .form .message a {
-  color: #00B74A;
+  color: #00B060;
   text-decoration: none;
+}
+.form .form-title {
+    font-family: montserrat;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #2C3E50;
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+    font-weight: bold;
 }
 .form .register-form {
   display: none;
@@ -90,12 +98,12 @@
   color: #EF3B3A;
 }
 body {
-  background: #63DB93; /* fallback for old browsers */
-  background: -webkit-linear-gradient(right, #63DB93, #37DB79);
-  background: -moz-linear-gradient(right, #63DB93, #37DB79);
-  background: -o-linear-gradient(right, #63DB93, #37DB79);
-  background: linear-gradient(to left, #63DB93, #37DB79);
-  font-family: "Roboto", sans-serif;
+  background: #00B060; /* fallback for old browsers */
+  background: -webkit-linear-gradient(right, #36D88E, #00B060);
+  background: -moz-linear-gradient(right, #36D88E, #00B060);
+  background: -o-linear-gradient(right, #36D88E, #00B060);
+  background: linear-gradient(to left, #36D88E, #00B060);
+  font-family: montserrat, arial, verdana;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;      
 }
