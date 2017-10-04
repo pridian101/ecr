@@ -7,7 +7,7 @@
     <meta name="author" content="">
     <link rel="icon" href="../../favicon.ico">
 
-    <title>Create Profile</title>
+    <title>Dashboard</title>
 
     <!-- Bootstrap core CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
@@ -18,7 +18,6 @@
 
   <body>
 
-    <body>
     <div class="container-fluid">
         <div class="row">
             <div class="col-md-2 col-sm-4 sidebar1">
@@ -27,32 +26,29 @@
                 </div>
                 <br>
                 <div class="left-navigation">
-                    <ul class="list">
-                        <h5><strong>Data Sheet</strong></h5>
-                        <li>Students</li>
-                        <li>Archive</li>
-                    </ul>
+                        <ul class="list">
+                            <h5><strong>Data Sheet</strong></h5>
+                            <li>Students</li>
+                            <li>Archive</li>
+                        </ul>
 
-                    <br>
+                        <br>
 
-                    <ul class="list">
-                        <h5><strong>Quarters</strong></h5>
-                        <li>Quarter 1</li>
-                        <li>Quarter 1</li>
-                        <li>Quarter 1</li>
-                        <li>Quarter 1</li>
-                        <li>Summary of Grades</li>
-                    </ul>
+                        <ul class="list">
+                            <h5><strong>Quarters</strong></h5>
+                            <li>Quarter 1</li>
+                            <li>Quarter 1</li>
+                            <li>Quarter 1</li>
+                            <li>Quarter 1</li>
+                            <li>Summary of Grades</li>
+                        </ul>
                 </div>
             </div>
             <div class="col-md-10 col-sm-8 main-content">
             <!--Main content code to be written here --> 
             <h1>Miss Tapya</h1>
-            
+            </div>
         </div>
-    </div>
-</body>
-        <!-- /.MultiStep Form -->
 
     </div> <!-- /container -->
 
