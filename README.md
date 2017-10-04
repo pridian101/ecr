@@ -1,7 +1,9 @@
 # ecr
 Elective 3: Electronic Class Record System
 
-Currently active:
+Currently updating:
+
+https://eclassrecord.herokuapp.com
 
 https://eclassrecord.herokuapp.com/signin.php
 
