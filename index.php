@@ -42,23 +42,6 @@
                             <li>Quarter 1</li>
                             <li>Summary of Grades</li>
                         </ul>
-
-                    <ul class="list">
-                        <h5><strong>Data Sheet</strong></h5>
-                        <li>Students</li>
-                        <li>Archive</li>
-                    </ul>
-
-                    <br>
-
-                    <ul class="list">
-                        <h5><strong>Quarters</strong></h5>
-                        <li>Quarter 1</li>
-                        <li>Quarter 1</li>
-                        <li>Quarter 1</li>
-                        <li>Quarter 1</li>
-                        <li>Summary of Grades</li>
-                    </ul>
                 </div>
             </div>
             <div class="col-md-10 col-sm-8 main-content">
