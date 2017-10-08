@@ -11,3 +11,4 @@ https://eclassrecord.herokuapp.com/create_profile.php
 
 https://eclassrecord.herokuapp.com/students.php
 
+https://eclassrecord.herokuapp.com/sign_up.php * connected to firebase
