@@ -1,3 +1,6 @@
+/*custom font*/
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+
 .sidebar1 {
     background: #00A876;
     /* For browsers that do not support gradients */
@@ -13,20 +16,21 @@
     min-height: 100%;
 }
 .logo {
-    max-width: 80%;
+    max-width: 100%;
     max-height: auto;
-    align-self: center;
+    padding-left: 10px;
 }
 .list {
     color: #fff;
     list-style: none;
     padding-left: 0px;
+
 }
 .list::first-line {
     color: rgba(255, 255, 255, 0.5);
 }
 .list> li, h5 {
-    padding: 5px 0px 5px 40px;
+    padding-left: 40px;
 }
 .list>li:hover {
     background-color: rgba(255, 255, 255, 0.2);
@@ -35,8 +39,11 @@
     font-weight: bolder;
     padding-left: 35px;
 }
+h5{
+    font-size: 20px;
+}
 h1 {
-  font-size: 30px;
+  font-size: 20px;
   margin-bottom: 20px;
   padding-top: 9px;
   padding-bottom: 9px;
